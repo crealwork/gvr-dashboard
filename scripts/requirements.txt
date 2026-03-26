@@ -1,0 +1,1 @@
+# No pip dependencies needed — uses pdftotext CLI + stdlib
