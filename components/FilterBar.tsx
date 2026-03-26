@@ -2,8 +2,7 @@
 
 import { useQueryState, parseAsString } from "nuqs";
 import { Toggle } from "@/components/ui/Toggle";
-import { BENCHMARK_AREAS, PROPERTY_TYPES, CHANGE_PERIODS } from "@/lib/constants";
-import type { ChangePeriod } from "@/lib/types";
+import { BENCHMARK_AREAS, PROPERTY_TYPES } from "@/lib/constants";
 
 const ALL_PROPERTY_OPTIONS = ["all", ...PROPERTY_TYPES] as const;
 type PropertyOption = (typeof ALL_PROPERTY_OPTIONS)[number];
@@ -15,19 +14,9 @@ const PROPERTY_LABELS: Record<PropertyOption, string> = {
   apartment: "Apartment",
 };
 
-const PERIOD_LABELS: Record<ChangePeriod, string> = {
-  "1m": "1M",
-  "3m": "3M",
-  "6m": "6M",
-  "1y": "1Y",
-  "3y": "3Y",
-  "5y": "5Y",
-};
-
 export function FilterBar() {
   const [area, setArea] = useQueryState("area", parseAsString.withDefault("greater-vancouver"));
   const [propertyType, setPropertyType] = useQueryState("type", parseAsString.withDefault("all"));
-  const [period, setPeriod] = useQueryState("period", parseAsString.withDefault("1y"));
 
   return (
     <div className="sticky top-0 z-30 bg-[#FAFAFA]/80 backdrop-blur-md border-b border-border py-3">
@@ -54,14 +43,6 @@ export function FilterBar() {
           value={propertyType as PropertyOption}
           onChange={(v) => setPropertyType(v)}
           labels={PROPERTY_LABELS}
-        />
-
-        {/* Period toggle */}
-        <Toggle
-          options={CHANGE_PERIODS}
-          value={period as ChangePeriod}
-          onChange={(v) => setPeriod(v)}
-          labels={PERIOD_LABELS}
         />
       </div>
     </div>

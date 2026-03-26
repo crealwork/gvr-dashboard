@@ -86,5 +86,5 @@ export interface PropertyTimeSeries {
 export type MarketPhase = "buyer" | "balanced" | "seller";
 export type PriceCyclePhase = "accelerating" | "decelerating" | "correcting" | "bottoming";
 export type Momentum = "heating" | "cooling" | "stable";
-export type ChangePeriod = "1m" | "3m" | "6m" | "1y" | "3y" | "5y";
+export type ChangePeriod = "1m" | "3m" | "6m" | "1y" | "3y" | "5y" | "10y";
 export type PropertyType = "composite" | "detached" | "townhome" | "apartment";

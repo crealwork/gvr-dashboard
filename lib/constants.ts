@@ -21,7 +21,7 @@ export const BENCHMARK_AREAS = [
 ] as const;
 
 export const PROPERTY_TYPES = ["detached", "townhome", "apartment"] as const;
-export const CHANGE_PERIODS = ["1m", "3m", "6m", "1y", "3y", "5y"] as const;
+export const CHANGE_PERIODS = ["1m", "3m", "6m", "1y", "3y", "5y", "10y"] as const;
 
 export const COLOR_TOKENS = {
   background: "#FAFAFA",

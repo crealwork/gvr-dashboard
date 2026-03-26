@@ -18,6 +18,7 @@ const PERIOD_LABELS: Record<ChangePeriod, string> = {
   "1y": "1Y",
   "3y": "3Y",
   "5y": "5Y",
+  "10y": "10Y",
 };
 
 const TYPE_LABELS: Record<(typeof PROPERTY_TYPES)[number], string> = {

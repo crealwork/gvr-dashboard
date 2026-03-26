@@ -42,3 +42,5 @@ next-env.d.ts
 
 # pdf source data
 /gvr-market-reports/
+
+.vercel
