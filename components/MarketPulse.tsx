@@ -1,5 +1,5 @@
 import type { Summary, MarketPhase } from "@/lib/types";
-import { formatCurrencyFull, formatNumber } from "@/lib/format";
+import { formatCurrency, formatNumber } from "@/lib/format";
 import { KpiCard } from "@/components/KpiCard";
 import { Card } from "@/components/ui/Card";
 import { GaugeChart } from "@/components/GaugeChart";
@@ -43,7 +43,7 @@ export function MarketPulse({
       />
       <KpiCard
         label="Benchmark Price"
-        value={formatCurrencyFull(summary.compositeBenchmarkPrice)}
+        value={formatCurrency(summary.compositeBenchmarkPrice)}
         change={yoyChange(
           summary.compositeBenchmarkPrice,
           prevSummary?.compositeBenchmarkPrice

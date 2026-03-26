@@ -17,7 +17,7 @@ export function Toggle<T extends string>({
         <button
           key={opt}
           onClick={() => onChange(opt)}
-          className={`px-3 py-1.5 text-sm font-medium rounded-md transition-all ${
+          className={`px-4 py-2 text-sm font-medium rounded-md transition-all ${
             value === opt
               ? "bg-surface text-primary shadow-sm"
               : "text-neutral hover:text-[#111827]"

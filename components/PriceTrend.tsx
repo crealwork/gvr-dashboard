@@ -122,7 +122,20 @@ export function PriceTrend({
   return (
     <div>
       <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
-        <h2 className="text-lg font-semibold">Price Trends</h2>
+        <div className="flex items-center gap-4">
+          <h2 className="text-lg font-semibold">Price Trends</h2>
+          <div className="flex items-center gap-4">
+            {(["Detached", "Townhome", "Apartment"] as const).map((type) => (
+              <div key={type} className="flex items-center gap-1.5">
+                <span
+                  className="inline-block w-3 h-0.5 rounded"
+                  style={{ backgroundColor: LINE_COLORS[type.toLowerCase() as keyof typeof LINE_COLORS] }}
+                />
+                <span className="text-[11px] text-neutral">{type}</span>
+              </div>
+            ))}
+          </div>
+        </div>
         <Toggle
           options={METRIC_OPTIONS}
           value={metric}
@@ -130,7 +143,7 @@ export function PriceTrend({
           labels={METRIC_LABELS}
         />
       </div>
-      <div className="w-full h-[360px]">
+      <div className="w-full h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: 8 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" vertical={false} />
@@ -179,18 +192,6 @@ export function PriceTrend({
             />
           </LineChart>
         </ResponsiveContainer>
-      </div>
-      {/* Legend */}
-      <div className="flex items-center justify-center gap-6 mt-3">
-        {(["Detached", "Townhome", "Apartment"] as const).map((type) => (
-          <div key={type} className="flex items-center gap-1.5">
-            <span
-              className="inline-block w-3 h-0.5 rounded"
-              style={{ backgroundColor: LINE_COLORS[type.toLowerCase() as keyof typeof LINE_COLORS] }}
-            />
-            <span className="text-xs text-neutral">{type}</span>
-          </div>
-        ))}
       </div>
     </div>
   );

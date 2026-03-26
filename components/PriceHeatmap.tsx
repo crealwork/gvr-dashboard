@@ -98,7 +98,7 @@ export function PriceHeatmap({ areas }: { areas: AreaData[] }) {
           <tbody>
             {sortedAreas.map((area) => (
               <tr key={area.slug} className="group">
-                <td className="text-sm pr-3 py-1 sticky left-0 bg-[#FAFAFA] z-10 whitespace-nowrap group-hover:text-primary transition-colors">
+                <td className="text-sm text-[#111827] pr-3 py-1 sticky left-0 bg-[#FAFAFA] z-10 whitespace-nowrap">
                   {area.name}
                 </td>
                 {PROPERTY_TYPES.map((type) => {

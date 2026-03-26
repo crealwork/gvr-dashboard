@@ -36,17 +36,17 @@ export default function Home() {
       </Suspense>
 
       {/* Market Pulse KPIs */}
-      <section className="mt-8">
+      <section className="mt-10">
         <MarketPulse summary={current} prevSummary={previous ?? undefined} />
       </section>
 
       {/* Price Heatmap */}
-      <section className="mt-8">
+      <section className="mt-12">
         <PriceHeatmap areas={areas} />
       </section>
 
       {/* Price Trend */}
-      <section className="mt-8">
+      <section className="mt-12">
         <PriceTrend detached={detached} townhome={townhome} apartment={apartment} />
       </section>
     </main>

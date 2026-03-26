@@ -5,7 +5,7 @@ export function KpiCard({ label, value, change }: { label: string; value: string
   return (
     <Card>
       <p className="text-sm text-neutral mb-1">{label}</p>
-      <p className="text-2xl font-semibold tabular-nums tracking-tight">{value}</p>
+      <p className="text-3xl font-semibold tabular-nums tracking-tight">{value}</p>
       {change !== undefined && (
         <div className="mt-2">
           <Badge value={change} />
