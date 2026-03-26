@@ -1,0 +1,31 @@
+name: Monthly Market Data Update
+on:
+  schedule:
+    - cron: '0 10 5 * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pdftotext
+        run: sudo apt-get install -y poppler-utils
+      - name: Scrape latest report
+        run: bash scripts/scrape-latest.sh
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+      - name: Parse new PDF
+        run: python scripts/parse-pdf.py gvr-market-reports/$(ls -t gvr-market-reports/*.pdf | head -1)
+      - name: Build index
+        run: python scripts/build-index.py
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "data: add $(date +%B\ %Y) market report" || exit 0
+          git push

@@ -13,6 +13,16 @@ import { RelativeValueBar } from "@/components/RelativeValueBar";
 import { PriceTrend } from "@/components/PriceTrend";
 import Link from "next/link";
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const areas = getAreas();
+  const area = areas.find((a) => a.slug === slug);
+  return {
+    title: `${area?.name ?? slug} — Vancouver Market Pulse`,
+    description: `Real estate market data and trends for ${area?.name ?? slug}. Track benchmark prices, market phase, and investment insights.`,
+  };
+}
+
 export function generateStaticParams() {
   const areas = getAreas();
   return areas.map((area) => ({ slug: area.slug }));

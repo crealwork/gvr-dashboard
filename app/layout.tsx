@@ -4,8 +4,14 @@ import { NuqsAdapter } from "nuqs/adapters/next/app";
 import "./globals.css";
 
 export const metadata = {
-  title: "Vancouver Market Pulse",
-  description: "10 years of real estate data, visualized",
+  title: "Vancouver Market Pulse — Real Estate Market Intelligence",
+  description:
+    "Interactive dashboard showing 10 years of Greater Vancouver real estate market data. Track benchmark prices, market trends, and investment insights across 21 areas.",
+  openGraph: {
+    title: "Vancouver Market Pulse",
+    description: "10 years of Greater Vancouver real estate data, visualized",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
