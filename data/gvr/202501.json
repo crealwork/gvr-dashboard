@@ -1,0 +1,522 @@
+{
+  "date": "2025-01",
+  "board": "gvr",
+  "summary": {
+    "headline": "Home sellers off to an active start in 2025",
+    "totalSales": 1552,
+    "newListings": 5566,
+    "activeListings": 11494,
+    "salesToActiveRatio": 14.1,
+    "compositeBenchmarkPrice": 1174400
+  },
+  "areas": [
+    {
+      "name": "Greater Vancouver",
+      "slug": "greater-vancouver",
+      "activityGroup": "Greater Vancouver",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 380,
+          "newListings": 1594
+        },
+        "townhome": {
+          "sales": 321,
+          "newListings": 23
+        },
+        "apartment": {
+          "sales": 846,
+          "newListings": 2905
+        }
+      }
+    },
+    {
+      "name": "Bowen Island",
+      "slug": "bowen-island",
+      "activityGroup": "Bowen Island",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 2,
+          "newListings": 8,
+          "salesToListingsRatio": 25.0
+        },
+        "townhome": {
+          "sales": 0,
+          "newListings": 2025
+        },
+        "apartment": {
+          "sales": 0,
+          "newListings": 0
+        }
+      }
+    },
+    {
+      "name": "Burnaby East",
+      "slug": "burnaby-east",
+      "activityGroup": "Burnaby",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 32,
+          "medianSellingPrice": 2339000,
+          "newListings": 106,
+          "salesToListingsRatio": 30.0
+        },
+        "townhome": {
+          "sales": 17,
+          "newListings": 0,
+          "salesToListingsRatio": 21.0
+        },
+        "apartment": {
+          "sales": 131,
+          "medianSellingPrice": 740000,
+          "newListings": 492,
+          "salesToListingsRatio": 27.0
+        }
+      }
+    },
+    {
+      "name": "Burnaby North",
+      "slug": "burnaby-north",
+      "activityGroup": "Burnaby",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 32,
+          "medianSellingPrice": 2339000,
+          "newListings": 106,
+          "salesToListingsRatio": 30.0
+        },
+        "townhome": {
+          "sales": 17,
+          "newListings": 0,
+          "salesToListingsRatio": 21.0
+        },
+        "apartment": {
+          "sales": 131,
+          "medianSellingPrice": 740000,
+          "newListings": 492,
+          "salesToListingsRatio": 27.0
+        }
+      }
+    },
+    {
+      "name": "Burnaby South",
+      "slug": "burnaby-south",
+      "activityGroup": "Burnaby",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 32,
+          "medianSellingPrice": 2339000,
+          "newListings": 106,
+          "salesToListingsRatio": 30.0
+        },
+        "townhome": {
+          "sales": 17,
+          "newListings": 0,
+          "salesToListingsRatio": 21.0
+        },
+        "apartment": {
+          "sales": 131,
+          "medianSellingPrice": 740000,
+          "newListings": 492,
+          "salesToListingsRatio": 27.0
+        }
+      }
+    },
+    {
+      "name": "Coquitlam",
+      "slug": "coquitlam",
+      "activityGroup": "Coquitlam",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 33,
+          "medianSellingPrice": 1705000,
+          "newListings": 123,
+          "salesToListingsRatio": 27.0
+        },
+        "townhome": {
+          "sales": 29,
+          "medianSellingPrice": 1222500,
+          "newListings": 82,
+          "salesToListingsRatio": 29.0
+        },
+        "apartment": {
+          "sales": 93,
+          "medianSellingPrice": 690000,
+          "newListings": 264,
+          "salesToListingsRatio": 35.0
+        }
+      }
+    },
+    {
+      "name": "Ladner",
+      "slug": "ladner",
+      "activityGroup": "Delta - South",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 18,
+          "newListings": 86,
+          "salesToListingsRatio": 21.0
+        },
+        "townhome": {
+          "sales": 9,
+          "newListings": 99,
+          "salesToListingsRatio": 19.0
+        },
+        "apartment": {
+          "sales": 16,
+          "newListings": 52,
+          "salesToListingsRatio": 31.0
+        }
+      }
+    },
+    {
+      "name": "Maple Ridge",
+      "slug": "maple-ridge",
+      "activityGroup": "Maple Ridge/Pitt Meadows",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 52,
+          "medianSellingPrice": 1259250,
+          "newListings": 208,
+          "salesToListingsRatio": 25.0
+        },
+        "townhome": {
+          "sales": 35,
+          "medianSellingPrice": 830000,
+          "newListings": 1,
+          "salesToListingsRatio": 40.0
+        },
+        "apartment": {
+          "sales": 21,
+          "medianSellingPrice": 534000,
+          "newListings": 97,
+          "salesToListingsRatio": 22.0
+        }
+      }
+    },
+    {
+      "name": "New Westminster",
+      "slug": "new-westminster",
+      "activityGroup": "New Westminster",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 3,
+          "newListings": 30,
+          "salesToListingsRatio": 10.0
+        },
+        "townhome": {
+          "sales": 5,
+          "newListings": 88,
+          "salesToListingsRatio": 21.0
+        },
+        "apartment": {
+          "sales": 53,
+          "medianSellingPrice": 637999,
+          "newListings": 173,
+          "salesToListingsRatio": 31.0
+        }
+      }
+    },
+    {
+      "name": "North Vancouver",
+      "slug": "north-vancouver",
+      "activityGroup": "North Vancouver",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 42,
+          "medianSellingPrice": 2239000,
+          "newListings": 128,
+          "salesToListingsRatio": 33.0
+        },
+        "townhome": {
+          "sales": 24,
+          "medianSellingPrice": 1381950,
+          "newListings": 24,
+          "salesToListingsRatio": 31.0
+        },
+        "apartment": {
+          "sales": 82,
+          "medianSellingPrice": 803750,
+          "newListings": 217,
+          "salesToListingsRatio": 38.0
+        }
+      }
+    },
+    {
+      "name": "Pitt Meadows",
+      "slug": "pitt-meadows",
+      "activityGroup": "Maple Ridge/Pitt Meadows",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 52,
+          "medianSellingPrice": 1259250,
+          "newListings": 208,
+          "salesToListingsRatio": 25.0
+        },
+        "townhome": {
+          "sales": 35,
+          "medianSellingPrice": 830000,
+          "newListings": 1,
+          "salesToListingsRatio": 40.0
+        },
+        "apartment": {
+          "sales": 21,
+          "medianSellingPrice": 534000,
+          "newListings": 97,
+          "salesToListingsRatio": 22.0
+        }
+      }
+    },
+    {
+      "name": "Port Coquitlam",
+      "slug": "port-coquitlam",
+      "activityGroup": "Port Coquitlam",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 16,
+          "newListings": 67,
+          "salesToListingsRatio": 24.0
+        },
+        "townhome": {
+          "sales": 17,
+          "newListings": 77,
+          "salesToListingsRatio": 89.0
+        },
+        "apartment": {
+          "sales": 32,
+          "medianSellingPrice": 621250,
+          "newListings": 61,
+          "salesToListingsRatio": 52.0
+        }
+      }
+    },
+    {
+      "name": "Port Moody",
+      "slug": "port-moody",
+      "activityGroup": "Port Moody/Belcarra",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 8,
+          "newListings": 40,
+          "salesToListingsRatio": 20.0
+        },
+        "townhome": {
+          "sales": 7,
+          "newListings": 19,
+          "salesToListingsRatio": 30.0
+        },
+        "apartment": {
+          "sales": 17,
+          "newListings": 46,
+          "salesToListingsRatio": 37.0
+        }
+      }
+    },
+    {
+      "name": "Richmond",
+      "slug": "richmond",
+      "activityGroup": "Richmond",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 50,
+          "medianSellingPrice": 1896500,
+          "newListings": 171,
+          "salesToListingsRatio": 29.0
+        },
+        "townhome": {
+          "sales": 52,
+          "medianSellingPrice": 1169450,
+          "newListings": 23,
+          "salesToListingsRatio": 45.0
+        },
+        "apartment": {
+          "sales": 104,
+          "medianSellingPrice": 705037,
+          "newListings": 323,
+          "salesToListingsRatio": 32.0
+        }
+      }
+    },
+    {
+      "name": "Squamish",
+      "slug": "squamish",
+      "activityGroup": "Squamish",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 4,
+          "newListings": 23,
+          "salesToListingsRatio": 17.0
+        },
+        "townhome": {
+          "sales": 11,
+          "newListings": 115,
+          "salesToListingsRatio": 39.0
+        },
+        "apartment": {
+          "sales": 12,
+          "newListings": 34,
+          "salesToListingsRatio": 35.0
+        }
+      }
+    },
+    {
+      "name": "Sunshine Coast",
+      "slug": "sunshine-coast",
+      "activityGroup": "Sunshine Coast",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 29,
+          "medianSellingPrice": 895000,
+          "newListings": 101,
+          "salesToListingsRatio": 29.0
+        },
+        "townhome": {
+          "sales": 3,
+          "newListings": 28,
+          "salesToListingsRatio": 27.0
+        },
+        "apartment": {
+          "sales": 2,
+          "newListings": 10,
+          "salesToListingsRatio": 20.0
+        }
+      }
+    },
+    {
+      "name": "Tsawwassen",
+      "slug": "tsawwassen",
+      "activityGroup": "Delta - South",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 18,
+          "newListings": 86,
+          "salesToListingsRatio": 21.0
+        },
+        "townhome": {
+          "sales": 9,
+          "newListings": 99,
+          "salesToListingsRatio": 19.0
+        },
+        "apartment": {
+          "sales": 16,
+          "newListings": 52,
+          "salesToListingsRatio": 31.0
+        }
+      }
+    },
+    {
+      "name": "Vancouver East",
+      "slug": "vancouver-east",
+      "activityGroup": "Vancouver East",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 31,
+          "medianSellingPrice": 1851000,
+          "newListings": 160,
+          "salesToListingsRatio": 19.0
+        },
+        "townhome": {
+          "sales": 55,
+          "medianSellingPrice": 1490000,
+          "newListings": 11,
+          "salesToListingsRatio": 25.0
+        },
+        "apartment": {
+          "sales": 71,
+          "medianSellingPrice": 699000,
+          "newListings": 265,
+          "salesToListingsRatio": 27.0
+        }
+      }
+    },
+    {
+      "name": "Vancouver West",
+      "slug": "vancouver-west",
+      "activityGroup": "Vancouver West",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 35,
+          "medianSellingPrice": 3200000,
+          "newListings": 183,
+          "salesToListingsRatio": 19.0
+        },
+        "townhome": {
+          "sales": 38,
+          "medianSellingPrice": 1569000,
+          "newListings": 217,
+          "salesToListingsRatio": 20.0
+        },
+        "apartment": {
+          "sales": 182,
+          "medianSellingPrice": 838444,
+          "newListings": 789,
+          "salesToListingsRatio": 23.0
+        }
+      }
+    },
+    {
+      "name": "West Vancouver",
+      "slug": "west-vancouver",
+      "activityGroup": "West Vancouver/Howe Sound",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 16,
+          "newListings": 128,
+          "salesToListingsRatio": 13.0
+        },
+        "townhome": {
+          "sales": 3,
+          "newListings": 188,
+          "salesToListingsRatio": 13.0
+        },
+        "apartment": {
+          "sales": 11,
+          "newListings": 39,
+          "salesToListingsRatio": 28.0
+        }
+      }
+    },
+    {
+      "name": "Whistler",
+      "slug": "whistler",
+      "activityGroup": "Whistler/Pemberton",
+      "types": {},
+      "activity": {
+        "detached": {
+          "sales": 8,
+          "newListings": 25,
+          "salesToListingsRatio": 32.0
+        },
+        "townhome": {
+          "sales": 16,
+          "newListings": 23,
+          "salesToListingsRatio": 70.0
+        },
+        "apartment": {
+          "sales": 19,
+          "newListings": 43,
+          "salesToListingsRatio": 44.0
+        }
+      }
+    }
+  ]
+}

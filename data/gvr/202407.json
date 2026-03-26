@@ -1,0 +1,1597 @@
+{
+  "date": "2024-07",
+  "board": "gvr",
+  "summary": {
+    "headline": "More selection not translating to more transactions",
+    "totalSales": 2333,
+    "newListings": 5597,
+    "activeListings": 14326,
+    "salesToActiveRatio": 16.9,
+    "compositeBenchmarkPrice": 1197700
+  },
+  "areas": [
+    {
+      "name": "Greater Vancouver",
+      "slug": "greater-vancouver",
+      "activityGroup": "Greater Vancouver",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1197700,
+          "priceIndex": 340.6,
+          "change": {
+            "1m": -0.8,
+            "3m": -0.7,
+            "6m": 2.6,
+            "1y": -0.8,
+            "3y": 9.8,
+            "5y": 35.5,
+            "10y": 74.1
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2049000,
+          "priceIndex": 381.4,
+          "change": {
+            "1m": -0.6,
+            "3m": 0.7,
+            "6m": 5.4,
+            "1y": 2.1,
+            "3y": 14.0,
+            "5y": 44.7,
+            "10y": 83.8
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 990500,
+          "priceIndex": 378.2,
+          "change": {}
+        },
+        "apartment": {
+          "benchmarkPrice": 714400,
+          "priceIndex": 358.5,
+          "change": {
+            "1m": -3.5,
+            "3m": -4.3,
+            "6m": 4.7,
+            "1y": 2.0,
+            "3y": 17.8,
+            "5y": 61.0,
+            "10y": 228.6
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 688,
+          "newListings": 1838
+        },
+        "townhome": {
+          "sales": 1192,
+          "newListings": 30
+        },
+        "apartment": {
+          "newListings": 2703
+        }
+      }
+    },
+    {
+      "name": "Bowen Island",
+      "slug": "bowen-island",
+      "activityGroup": "Bowen Island",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1444200,
+          "priceIndex": 302.2,
+          "change": {
+            "1m": -5.3,
+            "3m": 2.9,
+            "6m": 6.7,
+            "1y": -1.1,
+            "3y": 5.9,
+            "5y": 58.1,
+            "10y": 145.9
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1445700,
+          "priceIndex": 301.8,
+          "change": {
+            "1m": -5.3,
+            "3m": 2.9,
+            "6m": 6.6,
+            "1y": -1.1,
+            "3y": 5.9,
+            "5y": 58.0,
+            "10y": 146.2
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 3,
+          "newListings": 19,
+          "salesToListingsRatio": 16.0
+        },
+        "townhome": {
+          "sales": 0,
+          "newListings": 2024
+        },
+        "apartment": {
+          "sales": 0,
+          "newListings": 0
+        }
+      }
+    },
+    {
+      "name": "Burnaby East",
+      "slug": "burnaby-east",
+      "activityGroup": "Burnaby",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1156800,
+          "priceIndex": 367.8,
+          "change": {
+            "1m": -0.9,
+            "3m": -0.8,
+            "6m": 4.1,
+            "1y": -1.0,
+            "3y": 15.9,
+            "5y": 32.5,
+            "10y": 99.8
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1944400,
+          "priceIndex": 417.7,
+          "change": {
+            "1m": -1.0,
+            "3m": -0.4,
+            "6m": 7.1,
+            "1y": 0.3,
+            "3y": 24.7,
+            "5y": 45.4,
+            "10y": 122.8
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1124700,
+          "priceIndex": 392.8,
+          "change": {
+            "1m": -0.8,
+            "3m": -0.8,
+            "6m": 3.7,
+            "1y": 0.9,
+            "3y": 19.5,
+            "5y": 48.5,
+            "10y": 136.2
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 768200,
+          "priceIndex": 355.5,
+          "change": {}
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 51,
+          "medianSellingPrice": 2180000,
+          "newListings": 136,
+          "salesToListingsRatio": 38.0
+        },
+        "townhome": {
+          "sales": 37,
+          "medianSellingPrice": 1020000,
+          "newListings": 0,
+          "salesToListingsRatio": 44.0
+        },
+        "apartment": {
+          "sales": 221,
+          "medianSellingPrice": 719900,
+          "newListings": 512,
+          "salesToListingsRatio": 43.0
+        }
+      }
+    },
+    {
+      "name": "Burnaby North",
+      "slug": "burnaby-north",
+      "activityGroup": "Burnaby",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1018800,
+          "priceIndex": 339.5,
+          "change": {
+            "1m": -0.4,
+            "3m": -0.1,
+            "6m": 2.3,
+            "1y": -0.3,
+            "3y": 9.2,
+            "5y": 33.0,
+            "10y": 89.3
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2165800,
+          "priceIndex": 414.3,
+          "change": {
+            "1m": -0.4,
+            "3m": 2.4,
+            "6m": 6.9,
+            "1y": 6.4,
+            "3y": 21.3,
+            "5y": 55.0,
+            "10y": 116.2
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 944600,
+          "priceIndex": 411.4,
+          "change": {
+            "1m": -1.2,
+            "3m": -0.9,
+            "6m": 4.5,
+            "1y": 1.3,
+            "3y": 18.9,
+            "5y": 44.9,
+            "10y": 132.0
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 794700,
+          "priceIndex": 336.6,
+          "change": {
+            "1m": -0.5,
+            "3m": -1.1,
+            "6m": 1.2,
+            "1y": -0.3,
+            "3y": 15.6,
+            "5y": 32.3,
+            "10y": 110.1
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 51,
+          "medianSellingPrice": 2180000,
+          "newListings": 136,
+          "salesToListingsRatio": 38.0
+        },
+        "townhome": {
+          "sales": 37,
+          "medianSellingPrice": 1020000,
+          "newListings": 0,
+          "salesToListingsRatio": 44.0
+        },
+        "apartment": {
+          "sales": 221,
+          "medianSellingPrice": 719900,
+          "newListings": 512,
+          "salesToListingsRatio": 43.0
+        }
+      }
+    },
+    {
+      "name": "Burnaby South",
+      "slug": "burnaby-south",
+      "activityGroup": "Burnaby",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1141500,
+          "priceIndex": 353.7,
+          "change": {
+            "1m": -0.5,
+            "3m": -0.9,
+            "6m": 1.5,
+            "1y": -1.5,
+            "3y": 10.7,
+            "5y": 29.3,
+            "10y": 84.2
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2257900,
+          "priceIndex": 431.0,
+          "change": {
+            "1m": -0.3,
+            "3m": 0.7,
+            "6m": 7.5,
+            "1y": 3.1,
+            "3y": 20.4,
+            "5y": 48.9,
+            "10y": 110.3
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 952800,
+          "priceIndex": 387.9,
+          "change": {
+            "1m": 1.7,
+            "3m": 4.3,
+            "6m": 11.1,
+            "1y": 7.8,
+            "3y": 25.7,
+            "5y": 44.6,
+            "10y": 133.5
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 755900,
+          "priceIndex": 369.6,
+          "change": {
+            "1m": -0.7,
+            "3m": -1.3,
+            "6m": 0.9,
+            "1y": -0.3,
+            "3y": 14.1,
+            "5y": 28.7,
+            "10y": 107.8
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 51,
+          "medianSellingPrice": 2180000,
+          "newListings": 136,
+          "salesToListingsRatio": 38.0
+        },
+        "townhome": {
+          "sales": 37,
+          "medianSellingPrice": 1020000,
+          "newListings": 0,
+          "salesToListingsRatio": 44.0
+        },
+        "apartment": {
+          "sales": 221,
+          "medianSellingPrice": 719900,
+          "newListings": 512,
+          "salesToListingsRatio": 43.0
+        }
+      }
+    },
+    {
+      "name": "Coquitlam",
+      "slug": "coquitlam",
+      "activityGroup": "Coquitlam",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1110800,
+          "priceIndex": 349.0,
+          "change": {
+            "1m": -0.3,
+            "3m": -1.2,
+            "6m": 1.2,
+            "1y": -2.0,
+            "3y": 10.3,
+            "5y": 38.7,
+            "10y": 104.6
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1830000,
+          "priceIndex": 424.7,
+          "change": {
+            "1m": -0.7,
+            "3m": -1.0,
+            "6m": 2.6,
+            "1y": 1.1,
+            "3y": 16.4,
+            "5y": 51.7,
+            "10y": 139.8
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1088500,
+          "priceIndex": 399.0,
+          "change": {
+            "1m": -0.3,
+            "3m": 3.2,
+            "6m": 7.3,
+            "1y": 4.8,
+            "3y": 21.1,
+            "5y": 41.8,
+            "10y": 130.9
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 842700,
+          "priceIndex": 386.0,
+          "change": {
+            "1m": -0.9,
+            "3m": -2.3,
+            "6m": 1.2,
+            "1y": -1.5,
+            "3y": 12.1,
+            "5y": 26.4,
+            "10y": 105.2
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 53,
+          "medianSellingPrice": 1725000,
+          "newListings": 166,
+          "salesToListingsRatio": 32.0
+        },
+        "townhome": {
+          "sales": 36,
+          "medianSellingPrice": 1045000,
+          "newListings": 84,
+          "salesToListingsRatio": 38.0
+        },
+        "apartment": {
+          "sales": 89,
+          "medianSellingPrice": 683750,
+          "newListings": 237,
+          "salesToListingsRatio": 38.0
+        }
+      }
+    },
+    {
+      "name": "Ladner",
+      "slug": "ladner",
+      "activityGroup": "Delta - South",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1151300,
+          "priceIndex": 335.0,
+          "change": {
+            "1m": -0.4,
+            "3m": -2.1,
+            "6m": 2.5,
+            "1y": -2.4,
+            "3y": 14.2,
+            "5y": 47.4,
+            "10y": 111.5
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1398800,
+          "priceIndex": 340.7,
+          "change": {
+            "1m": -0.8,
+            "3m": -3.0,
+            "6m": 2.3,
+            "1y": -3.0,
+            "3y": 11.6,
+            "5y": 50.4,
+            "10y": 117.1
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1091900,
+          "priceIndex": 427.2,
+          "change": {
+            "1m": -1.2,
+            "3m": -0.8,
+            "6m": 5.1,
+            "1y": 2.8,
+            "3y": 20.4,
+            "5y": 39.1,
+            "10y": 124.3
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 746900,
+          "priceIndex": 418.2,
+          "change": {
+            "1m": -0.5,
+            "3m": -1.8,
+            "6m": 0.0,
+            "1y": -0.2,
+            "3y": 14.9,
+            "5y": 31.6,
+            "10y": 118.1
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 39,
+          "medianSellingPrice": 1476500,
+          "newListings": 71,
+          "salesToListingsRatio": 55.0
+        },
+        "townhome": {
+          "sales": 16,
+          "newListings": 95,
+          "salesToListingsRatio": 55.0
+        },
+        "apartment": {
+          "sales": 20,
+          "medianSellingPrice": 598950,
+          "newListings": 22,
+          "salesToListingsRatio": 91.0
+        }
+      }
+    },
+    {
+      "name": "Maple Ridge",
+      "slug": "maple-ridge",
+      "activityGroup": "Maple Ridge/Pitt Meadows",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 989700,
+          "priceIndex": 344.2,
+          "change": {
+            "1m": -0.3,
+            "3m": -0.4,
+            "6m": 3.3,
+            "1y": -1.0,
+            "3y": 11.1,
+            "5y": 53.7,
+            "10y": 147.8
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1309200,
+          "priceIndex": 383.1,
+          "change": {
+            "1m": 0.5,
+            "3m": 1.0,
+            "6m": 5.6,
+            "1y": 0.5,
+            "3y": 13.8,
+            "5y": 59.9,
+            "10y": 173.3
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1020100,
+          "priceIndex": 405.0,
+          "change": {
+            "1m": 0.7,
+            "3m": 1.1,
+            "6m": 5.9,
+            "1y": 2.8,
+            "3y": 19.9,
+            "5y": 52.7,
+            "10y": 163.7
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 698200,
+          "priceIndex": 354.6,
+          "change": {
+            "1m": -0.1,
+            "3m": -0.4,
+            "6m": -0.2,
+            "1y": -1.3,
+            "3y": 14.0,
+            "5y": 25.0,
+            "10y": 109.4
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 89,
+          "newListings": 216,
+          "salesToListingsRatio": 41.0
+        },
+        "townhome": {
+          "sales": 63,
+          "newListings": 0,
+          "salesToListingsRatio": 59.0
+        },
+        "apartment": {
+          "sales": 69,
+          "medianSellingPrice": 525000,
+          "newListings": 85,
+          "salesToListingsRatio": 48.0
+        }
+      }
+    },
+    {
+      "name": "New Westminster",
+      "slug": "new-westminster",
+      "activityGroup": "New Westminster",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 821300,
+          "priceIndex": 375.9,
+          "change": {
+            "1m": -0.5,
+            "3m": -2.0,
+            "6m": 1.0,
+            "1y": -2.2,
+            "3y": 13.8,
+            "5y": 37.9,
+            "10y": 105.7
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1578100,
+          "priceIndex": 387.6,
+          "change": {
+            "1m": -1.0,
+            "3m": -1.5,
+            "6m": 5.8,
+            "1y": -0.6,
+            "3y": 18.4,
+            "5y": 46.9,
+            "10y": 117.8
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 788800,
+          "priceIndex": 397.0,
+          "change": {
+            "1m": 0.8,
+            "3m": -0.2,
+            "6m": 3.5,
+            "1y": 2.6,
+            "3y": 23.5,
+            "5y": 47.4,
+            "10y": 146.2
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 526300,
+          "priceIndex": 376.2,
+          "change": {
+            "1m": 0.1,
+            "3m": -1.1,
+            "6m": 2.7,
+            "1y": 0.0,
+            "3y": 18.4,
+            "5y": 37.1,
+            "10y": 156.4
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 18,
+          "medianSellingPrice": 2110000,
+          "newListings": 43,
+          "salesToListingsRatio": 42.0
+        },
+        "townhome": {
+          "sales": 11,
+          "medianSellingPrice": 1499500,
+          "newListings": 107,
+          "salesToListingsRatio": 39.0
+        },
+        "apartment": {
+          "sales": 94,
+          "medianSellingPrice": 618000,
+          "newListings": 137,
+          "salesToListingsRatio": 50.0
+        }
+      }
+    },
+    {
+      "name": "North Vancouver",
+      "slug": "north-vancouver",
+      "activityGroup": "North Vancouver",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1384300,
+          "priceIndex": 322.3,
+          "change": {
+            "1m": -1.0,
+            "3m": -0.2,
+            "6m": 3.3,
+            "1y": -0.6,
+            "3y": 9.6,
+            "5y": 33.9,
+            "10y": 83.6
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2293400,
+          "priceIndex": 360.0,
+          "change": {
+            "1m": -0.5,
+            "3m": 1.6,
+            "6m": 6.2,
+            "1y": 1.9,
+            "3y": 13.1,
+            "5y": 44.1,
+            "10y": 107.3
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 949200,
+          "priceIndex": 406.9,
+          "change": {
+            "1m": -0.4,
+            "3m": 0.1,
+            "6m": 4.9,
+            "1y": 2.7,
+            "3y": 16.0,
+            "5y": 55.6,
+            "10y": 188.1
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 651600,
+          "priceIndex": 398.5,
+          "change": {
+            "1m": -0.6,
+            "3m": 2.0,
+            "6m": -0.6,
+            "1y": -2.7,
+            "3y": 12.9,
+            "5y": 47.8,
+            "10y": 132.5
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 69,
+          "medianSellingPrice": 1416000,
+          "newListings": 153,
+          "salesToListingsRatio": 45.0
+        },
+        "townhome": {
+          "sales": 38,
+          "newListings": 28,
+          "salesToListingsRatio": 54.0
+        },
+        "apartment": {
+          "sales": 31,
+          "medianSellingPrice": 849000,
+          "newListings": 193,
+          "salesToListingsRatio": 49.0
+        }
+      }
+    },
+    {
+      "name": "Pitt Meadows",
+      "slug": "pitt-meadows",
+      "activityGroup": "Maple Ridge/Pitt Meadows",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 938800,
+          "priceIndex": 374.9,
+          "change": {
+            "1m": 0.0,
+            "3m": -2.3,
+            "6m": 3.4,
+            "1y": -0.3,
+            "3y": 19.6,
+            "5y": 56.3,
+            "10y": 169.3
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1304500,
+          "priceIndex": 390.9,
+          "change": {
+            "1m": 0.2,
+            "3m": -2.2,
+            "6m": 1.9,
+            "1y": -4.0,
+            "3y": 16.1,
+            "5y": 52.0,
+            "10y": 157.0
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1352100,
+          "priceIndex": 369.9,
+          "change": {
+            "1m": -0.2,
+            "3m": -0.5,
+            "6m": 2.5,
+            "1y": -0.1,
+            "3y": 21.6,
+            "5y": 49.0,
+            "10y": 126.1
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 814800,
+          "priceIndex": 330.8,
+          "change": {
+            "1m": -1.6,
+            "3m": -3.1,
+            "6m": 0.1,
+            "1y": 0.3,
+            "3y": 19.9,
+            "5y": 43.1,
+            "10y": 169.3
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 89,
+          "newListings": 216,
+          "salesToListingsRatio": 41.0
+        },
+        "townhome": {
+          "sales": 63,
+          "newListings": 0,
+          "salesToListingsRatio": 59.0
+        },
+        "apartment": {
+          "sales": 69,
+          "medianSellingPrice": 525000,
+          "newListings": 85,
+          "salesToListingsRatio": 48.0
+        }
+      }
+    },
+    {
+      "name": "Port Coquitlam",
+      "slug": "port-coquitlam",
+      "activityGroup": "Port Coquitlam",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 962200,
+          "priceIndex": 374.1,
+          "change": {
+            "1m": 0.0,
+            "3m": -0.7,
+            "6m": 3.3,
+            "1y": -0.8,
+            "3y": 18.8,
+            "5y": 53.7,
+            "10y": 140.7
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1436900,
+          "priceIndex": 406.7,
+          "change": {
+            "1m": 0.9,
+            "3m": -0.1,
+            "6m": 5.3,
+            "1y": 1.2,
+            "3y": 21.2,
+            "5y": 61.9,
+            "10y": 159.2
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 838900,
+          "priceIndex": 411.2,
+          "change": {
+            "1m": -2.7,
+            "3m": -2.6,
+            "6m": 2.1,
+            "1y": 0.2,
+            "3y": 19.3,
+            "5y": 47.8,
+            "10y": 130.9
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 604200,
+          "priceIndex": 418.1,
+          "change": {
+            "1m": -0.1,
+            "3m": -1.3,
+            "6m": 0.2,
+            "1y": -0.2,
+            "3y": 15.4,
+            "5y": 30.9,
+            "10y": 130.2
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 23,
+          "newListings": 64,
+          "salesToListingsRatio": 36.0
+        },
+        "townhome": {
+          "sales": 12,
+          "newListings": 70,
+          "salesToListingsRatio": 24.0
+        },
+        "apartment": {
+          "sales": 25,
+          "medianSellingPrice": 549000,
+          "newListings": 48,
+          "salesToListingsRatio": 65.0
+        }
+      }
+    },
+    {
+      "name": "Port Moody",
+      "slug": "port-moody",
+      "activityGroup": "Port Moody/Belcarra",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1140200,
+          "priceIndex": 363.9,
+          "change": {
+            "1m": -0.3,
+            "3m": 0.4,
+            "6m": 4.5,
+            "1y": 2.3,
+            "3y": 14.2,
+            "5y": 49.8,
+            "10y": 128.0
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2151900,
+          "priceIndex": 411.8,
+          "change": {
+            "1m": -1.4,
+            "3m": 0.1,
+            "6m": 5.9,
+            "1y": 4.5,
+            "3y": 20.3,
+            "5y": 56.2,
+            "10y": 146.0
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 943200,
+          "priceIndex": 380.2,
+          "change": {
+            "1m": 0.6,
+            "3m": -2.9,
+            "6m": 3.6,
+            "1y": 0.3,
+            "3y": 15.7,
+            "5y": 53.7,
+            "10y": 173.4
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 645300,
+          "priceIndex": 445.0,
+          "change": {
+            "1m": -1.2,
+            "3m": -1.0,
+            "6m": 3.3,
+            "1y": 1.0,
+            "3y": 15.6,
+            "5y": 28.5,
+            "10y": 121.7
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 17,
+          "medianSellingPrice": 2108000,
+          "newListings": 33,
+          "salesToListingsRatio": 52.0
+        },
+        "townhome": {
+          "sales": 16,
+          "medianSellingPrice": 1195500,
+          "newListings": 51,
+          "salesToListingsRatio": 47.0
+        },
+        "apartment": {
+          "sales": 140,
+          "medianSellingPrice": 800000,
+          "newListings": 40,
+          "salesToListingsRatio": 63.0
+        }
+      }
+    },
+    {
+      "name": "Richmond",
+      "slug": "richmond",
+      "activityGroup": "Richmond",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1166500,
+          "priceIndex": 384.1,
+          "change": {
+            "1m": -0.7,
+            "3m": -1.9,
+            "6m": 1.0,
+            "1y": -1.4,
+            "3y": 13.1,
+            "5y": 37.8,
+            "10y": 83.8
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2194100,
+          "priceIndex": 445.0,
+          "change": {
+            "1m": -0.2,
+            "3m": -0.6,
+            "6m": 4.0,
+            "1y": 0.5,
+            "3y": 14.4,
+            "5y": 40.8,
+            "10y": 98.8
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1061300,
+          "priceIndex": 410.1,
+          "change": {
+            "1m": -0.8,
+            "3m": -2.3,
+            "6m": 2.8,
+            "1y": -2.9,
+            "3y": 17.6,
+            "5y": 49.6,
+            "10y": 159.3
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 762000,
+          "priceIndex": 417.3,
+          "change": {
+            "1m": -0.6,
+            "3m": -2.7,
+            "6m": 0.5,
+            "1y": 0.4,
+            "3y": 19.3,
+            "5y": 38.8,
+            "10y": 171.5
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 61,
+          "newListings": 184,
+          "salesToListingsRatio": 33.0
+        },
+        "townhome": {
+          "sales": 52,
+          "medianSellingPrice": 1040000,
+          "newListings": 34,
+          "salesToListingsRatio": 39.0
+        },
+        "apartment": {
+          "sales": 17,
+          "medianSellingPrice": 705400,
+          "newListings": 312,
+          "salesToListingsRatio": 45.0
+        }
+      }
+    },
+    {
+      "name": "Squamish",
+      "slug": "squamish",
+      "activityGroup": "Squamish",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1078100,
+          "priceIndex": 358.2,
+          "change": {
+            "1m": -1.9,
+            "3m": -2.0,
+            "6m": 3.4,
+            "1y": -3.3,
+            "3y": 7.9,
+            "5y": 41.4,
+            "10y": 143.5
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1519800,
+          "priceIndex": 379.1,
+          "change": {
+            "1m": -1.8,
+            "3m": -0.3,
+            "6m": 3.3,
+            "1y": -7.9,
+            "3y": 1.0,
+            "5y": 39.2,
+            "10y": 173.1
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1159700,
+          "priceIndex": 415.8,
+          "change": {
+            "1m": 1.2,
+            "3m": 1.3,
+            "6m": 5.7,
+            "1y": 1.6,
+            "3y": 16.8,
+            "5y": 50.4,
+            "10y": 169.3
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 732900,
+          "priceIndex": 406.9,
+          "change": {
+            "1m": -0.3,
+            "3m": 0.7,
+            "6m": 4.0,
+            "1y": 1.9,
+            "3y": 21.0,
+            "5y": 46.2,
+            "10y": 180.6
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 15,
+          "medianSellingPrice": 980000,
+          "newListings": 32,
+          "salesToListingsRatio": 47.0
+        },
+        "townhome": {
+          "sales": 21,
+          "newListings": 135,
+          "salesToListingsRatio": 62.0
+        },
+        "apartment": {
+          "sales": 5,
+          "newListings": 24,
+          "salesToListingsRatio": 71.0
+        }
+      }
+    },
+    {
+      "name": "Sunshine Coast",
+      "slug": "sunshine-coast",
+      "activityGroup": "Sunshine Coast",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 835100,
+          "priceIndex": 305.9,
+          "change": {
+            "1m": -3.7,
+            "3m": 0.0,
+            "6m": 4.3,
+            "1y": -2.8,
+            "3y": 8.5,
+            "5y": 54.9,
+            "10y": 146.3
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 896400,
+          "priceIndex": 311.8,
+          "change": {
+            "1m": -3.9,
+            "3m": 0.7,
+            "6m": 4.6,
+            "1y": -3.6,
+            "3y": 8.0,
+            "5y": 56.4,
+            "10y": 151.7
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1036900,
+          "priceIndex": 390.4,
+          "change": {
+            "1m": -0.3,
+            "3m": 0.4,
+            "6m": 3.5,
+            "1y": 0.8,
+            "3y": 25.2,
+            "5y": 48.3,
+            "10y": 132.7
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 603700,
+          "priceIndex": 356.8,
+          "change": {
+            "1m": 0.2,
+            "3m": 2.8,
+            "6m": 7.4,
+            "1y": 6.3,
+            "3y": 20.0,
+            "5y": 41.6,
+            "10y": 152.8
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 44,
+          "medianSellingPrice": 1964000,
+          "newListings": 135,
+          "salesToListingsRatio": 46.0
+        },
+        "townhome": {
+          "sales": 4,
+          "medianSellingPrice": 1439286,
+          "newListings": 34,
+          "salesToListingsRatio": 33.0
+        },
+        "apartment": {
+          "sales": 114,
+          "newListings": 15,
+          "salesToListingsRatio": 50.0
+        }
+      }
+    },
+    {
+      "name": "Tsawwassen",
+      "slug": "tsawwassen",
+      "activityGroup": "Delta - South",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1245100,
+          "priceIndex": 323.7,
+          "change": {
+            "1m": 1.2,
+            "3m": -2.3,
+            "6m": 3.2,
+            "1y": 2.0,
+            "3y": 14.2,
+            "5y": 37.9,
+            "10y": 92.8
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1611700,
+          "priceIndex": 355.8,
+          "change": {
+            "1m": 1.4,
+            "3m": -4.0,
+            "6m": 2.9,
+            "1y": 3.1,
+            "3y": 14.3,
+            "5y": 45.2,
+            "10y": 112.0
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 755600,
+          "priceIndex": 353.6,
+          "change": {
+            "1m": -3.0,
+            "3m": -4.2,
+            "6m": 4.8,
+            "1y": 1.5,
+            "3y": 13.9,
+            "5y": 47.2,
+            "10y": 192.4
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 507000,
+          "priceIndex": 306.3,
+          "change": {
+            "1m": -1.9,
+            "3m": -3.7,
+            "6m": -1.1,
+            "1y": 0.1,
+            "3y": 17.2,
+            "5y": 32.5,
+            "10y": 125.3
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 39,
+          "medianSellingPrice": 1476500,
+          "newListings": 71,
+          "salesToListingsRatio": 55.0
+        },
+        "townhome": {
+          "sales": 16,
+          "newListings": 95,
+          "salesToListingsRatio": 55.0
+        },
+        "apartment": {
+          "sales": 20,
+          "medianSellingPrice": 598950,
+          "newListings": 22,
+          "salesToListingsRatio": 91.0
+        }
+      }
+    },
+    {
+      "name": "Vancouver East",
+      "slug": "vancouver-east",
+      "activityGroup": "Vancouver East",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1217900,
+          "priceIndex": 380.0,
+          "change": {
+            "1m": -1.2,
+            "3m": -0.4,
+            "6m": 2.8,
+            "1y": -0.8,
+            "3y": 11.8,
+            "5y": 37.8,
+            "10y": 84.4
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 1867900,
+          "priceIndex": 416.7,
+          "change": {
+            "1m": -1.3,
+            "3m": 0.4,
+            "6m": 2.1,
+            "1y": -1.2,
+            "3y": 11.7,
+            "5y": 40.5,
+            "10y": 99.5
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1011500,
+          "priceIndex": 296.7,
+          "change": {
+            "1m": -3.2,
+            "3m": -3.6,
+            "6m": 5.3,
+            "1y": 2.3,
+            "3y": 15.4,
+            "5y": 54.9,
+            "10y": 170.3
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 703300,
+          "priceIndex": 332.8,
+          "change": {
+            "1m": 1.0,
+            "3m": -3.6,
+            "6m": -3.5,
+            "1y": -4.2,
+            "3y": 12.7,
+            "5y": 39.5,
+            "10y": 170.3
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 89,
+          "medianSellingPrice": 3444000,
+          "newListings": 194,
+          "salesToListingsRatio": 32.0
+        },
+        "townhome": {
+          "sales": 60,
+          "medianSellingPrice": 1598500,
+          "newListings": 8,
+          "salesToListingsRatio": 36.0
+        },
+        "apartment": {
+          "sales": 298,
+          "medianSellingPrice": 712000,
+          "newListings": 229,
+          "salesToListingsRatio": 50.0
+        }
+      }
+    },
+    {
+      "name": "Vancouver West",
+      "slug": "vancouver-west",
+      "activityGroup": "Vancouver West",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1339900,
+          "priceIndex": 317.8,
+          "change": {
+            "1m": -0.9,
+            "3m": -0.5,
+            "6m": 3.1,
+            "1y": -0.3,
+            "3y": 4.8,
+            "5y": 21.2,
+            "10y": 40.6
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 3509900,
+          "priceIndex": 365.7,
+          "change": {
+            "1m": -1.4,
+            "3m": -0.1,
+            "6m": 4.4,
+            "1y": 1.6,
+            "3y": 4.3,
+            "5y": 24.4,
+            "10y": 50.5
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1145300,
+          "priceIndex": 377.6,
+          "change": {
+            "1m": 1.0,
+            "3m": -0.6,
+            "6m": 2.0,
+            "1y": 0.1,
+            "3y": 16.6,
+            "5y": 21.6,
+            "10y": 67.9
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 702700,
+          "priceIndex": 407.8,
+          "change": {
+            "1m": -0.2,
+            "3m": -4.6,
+            "6m": -5.4,
+            "1y": -7.4,
+            "3y": 3.3,
+            "5y": 31.0,
+            "10y": 102.6
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 67,
+          "medianSellingPrice": 3177500,
+          "newListings": 208,
+          "salesToListingsRatio": 24.0
+        },
+        "townhome": {
+          "sales": 51,
+          "newListings": 169,
+          "salesToListingsRatio": 35.0
+        },
+        "apartment": {
+          "sales": 16,
+          "medianSellingPrice": 872500,
+          "newListings": 778,
+          "salesToListingsRatio": 38.0
+        }
+      }
+    },
+    {
+      "name": "West Vancouver",
+      "slug": "west-vancouver",
+      "activityGroup": "West Vancouver/Howe Sound",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 2609300,
+          "priceIndex": 281.5,
+          "change": {
+            "1m": -1.2,
+            "3m": 0.6,
+            "6m": 3.3,
+            "1y": -1.4,
+            "3y": -1.5,
+            "5y": 23.4,
+            "10y": 41.1
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 3328500,
+          "priceIndex": 310.2,
+          "change": {
+            "1m": -0.2,
+            "3m": 2.6,
+            "6m": 6.5,
+            "1y": 3.1,
+            "3y": 5.3,
+            "5y": 30.0,
+            "10y": 53.3
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 849400,
+          "priceIndex": 328.3,
+          "change": {
+            "1m": -0.4,
+            "3m": 0.9,
+            "6m": 5.0,
+            "1y": 2.9,
+            "3y": 17.9,
+            "5y": 39.7,
+            "10y": 124.9
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 849400,
+          "priceIndex": 328.3,
+          "change": {
+            "1m": -0.4,
+            "3m": 0.9,
+            "6m": 5.0,
+            "1y": 2.9,
+            "3y": 17.9,
+            "5y": 39.7,
+            "10y": 124.9
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 36,
+          "newListings": 147,
+          "salesToListingsRatio": 35.0
+        },
+        "townhome": {
+          "sales": 7,
+          "newListings": 147,
+          "salesToListingsRatio": 30.0
+        },
+        "apartment": {
+          "sales": 12,
+          "newListings": 43,
+          "salesToListingsRatio": 37.0
+        }
+      }
+    },
+    {
+      "name": "Whistler",
+      "slug": "whistler",
+      "activityGroup": "Whistler/Pemberton",
+      "types": {
+        "composite": {
+          "benchmarkPrice": 1359900,
+          "priceIndex": 301.2,
+          "change": {
+            "1m": -2.0,
+            "3m": -3.0,
+            "6m": 0.3,
+            "1y": -7.7,
+            "3y": 2.7,
+            "5y": 42.3,
+            "10y": 147.1
+          }
+        },
+        "detached": {
+          "benchmarkPrice": 2471900,
+          "priceIndex": 321.3,
+          "change": {
+            "1m": -1.9,
+            "3m": 2.3,
+            "6m": 4.6,
+            "1y": -6.1,
+            "3y": 7.2,
+            "5y": 47.7,
+            "10y": 140.9
+          }
+        },
+        "townhome": {
+          "benchmarkPrice": 1444700,
+          "priceIndex": 340.8,
+          "change": {
+            "1m": -0.2,
+            "3m": 0.1,
+            "6m": 7.9,
+            "1y": 1.7,
+            "3y": 16.6,
+            "5y": 37.1,
+            "10y": 104.1
+          }
+        },
+        "apartment": {
+          "benchmarkPrice": 1282600,
+          "priceIndex": 247.4,
+          "change": {
+            "1m": -1.2,
+            "3m": -2.2,
+            "6m": 1.2,
+            "1y": -1.3,
+            "3y": 9.1,
+            "5y": 24.8,
+            "10y": 103.4
+          }
+        }
+      },
+      "activity": {
+        "detached": {
+          "sales": 9,
+          "newListings": 26
+        },
+        "townhome": {
+          "sales": 13,
+          "newListings": 23,
+          "salesToListingsRatio": 43.0
+        },
+        "apartment": {
+          "newListings": 28,
+          "salesToListingsRatio": 43.0
+        }
+      }
+    }
+  ]
+}
